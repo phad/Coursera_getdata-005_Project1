@@ -44,7 +44,7 @@ reduced.data <- cbind(reduced.data, all.activity.names['activity'])
 test.subjects <- read.table(file='UCI_HAR_Dataset/test/subject_test.txt', 
                             col.names=c('subject'))
 
-# Read the subject IDs for the test data set.
+# Read the subject IDs for the traiing data set.
 train.subjects <- read.table(file='UCI_HAR_Dataset/train/subject_train.txt', 
                              col.names=c('subject'))
 
